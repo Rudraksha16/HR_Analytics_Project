@@ -1,0 +1,501 @@
+employee_id,first_name,last_name,gender,department,hire_date,termination_date,salary,performance_rating,attrition
+1001,David,Rodriguez,Male,Dev,08-09-2020,,47093,1,No
+1002,Emily,Smith,Female,Dev,2018-02-05,,57905,5,No
+1003,Jessica,Smith,Female,HR,2021-01-12,,69351,4,No
+1004,Michael,Brown,Male,Dev,01-15-2022,2022-11-01,75981,3,Yes
+1005,David,Rodriguez,Female,Dev,12-04-2022,,118903,2,No
+1006,Amanda,Miller,Female,HR,2023-01-20,,115821,3,No
+1007,Alex,Williams,Male,Sales,2021-11-09,,127289,1,No
+1008,David,Smith,Female,Engineering,2021-04-10,,129021,5,No
+1009,Jessica,Brown,Female,Marketing,10-31-2021,,123513,3,No
+1010,Michael,Rodriguez,Male,Software Eng,09-05-2022,,64874,3,No
+1011,Emily,Williams,Male,SALES,10-17-2021,,95931,3,No
+1012,Jessica,Rodriguez,Male,Software Eng,12-29-2023,,52674,2,No
+1013,Jessica,Davis,Male,Software Eng,2021-07-24,2023-03-30,95516,3,Yes
+1014,Alex,Brown,Female,Human Resources,2021-05-28,2022-03-02,139574,4,Yes
+1015,Sarah,Williams,Female,Engineering,2019-06-05,,105686,3,No
+1016,Michael,Wilson,Male,Human Resources,2022-12-12,,139851,2,No
+1017,Jane,Jones,Male,Engineering,2018-01-10,,114212,3,No
+1018,Jessica,Jones,Male,HR,09-10-2020,,47426,3,No
+1019,Sarah,Williams,Male,HR,08-22-2024,,135009,4,No
+1020,Jane,Rodriguez,Female,Marketing,2022-07-15,,113498,3,No
+1021,Michael,Brown,Male,Engineering,07-19-2022,,74943,3,No
+1022,John,Jones,Male,Dev,2024-01-09,,111395,3,No
+1023,Amanda,Brown,Male,Sales,2019-12-21,,89816,3,No
+1024,Sarah,Jones,Female,Marketing,12-08-2020,,49138,3,No
+1025,James,Davis,Male,Marketing,2020-05-08,,136176,3,No
+1026,John,Rodriguez,Female,Dev,2021-08-09,,120945,3,No
+1027,Amanda,Davis,Male,Sales,2022-05-23,,49017,4,No
+1028,Alex,Jones,Female,Human Resources,2018-02-19,29/11/2018,55451,3,Yes
+1029,David,Wilson,Female,Sales,2018-05-26,2020-09-15,107956,5,Yes
+1030,Emily,Wilson,Male,Human Resources,07-03-2020,,138863,3,No
+1031,James,Davis,Male,HR,01-02-2022,,55278,5,No
+1032,Alex,Wilson,Female,Software Eng,2024-04-08,,135480,4,No
+1033,Michael,Jones,Female,HR,2019-08-04,,88764,3,No
+1034,Alex,Williams,Male,HR,05-04-2022,,46134,4,No
+1035,David,Davis,Female,Software Eng,04-28-2019,2020-04-06,107943,2,Yes
+1036,Michael,Johnson,Female,Sales,2021-06-03,,140667,5,No
+1037,James,Rodriguez,Female,Marketing,2019-11-04,03/10/2021,99318,3,Yes
+1038,David,Wilson,Male,Sales,2019-09-23,,105128,2,No
+1039,Jane,Wilson,Female,Human Resources,2019-10-24,,133056,3,No
+1040,Emily,Smith,Male,Dev,10-02-2024,,66869,5,No
+1041,James,Miller,Female,Human Resources,09-14-2020,2022-12-29,50039,2,Yes
+1042,Jane,Davis,Male,Dev,2022-03-27,24/02/2025,66281,3,Yes
+1043,Amanda,Garcia,Male,HR,10-12-2019,,55442,4,No
+1044,James,Wilson,Male,Software Eng,08-26-2020,,118788,4,No
+1045,Amanda,Rodriguez,Female,HR,01-05-2021,,72586,3,No
+1046,Michael,Johnson,Male,Engineering,2019-03-17,,98053,3,No
+1047,Jane,Wilson,Male,Sales,2020-07-09,,95489,1,No
+1048,Emily,Johnson,Male,Dev,02-09-2020,,128104,3,No
+1049,David,Jones,Female,Human Resources,09-05-2021,,131346,3,No
+1050,Jessica,Jones,Non-Binary,Software Eng,2023-01-01,,112087,5,No
+1051,Alex,Miller,Male,Dev,2018-09-20,,57625,2,No
+1052,John,Williams,Female,Human Resources,04-27-2022,2022-12-26,79397,3,Yes
+1053,Emily,Garcia,Female,Sales,09-25-2020,,103671,1,No
+1054,Jane,Smith,Female,HR,12-01-2019,2022-10-11,136785,2,Yes
+1055,Jessica,Miller,Male,Sales,2024-06-07,19/10/2026,111897,3,Yes
+1056,Emily,Brown,Male,SALES,05-23-2022,,71149,3,No
+1057,Jane,Smith,Male,Engineering,05-26-2021,25/07/2022,105030,3,Yes
+1058,Sarah,Davis,Male,SALES,2021-01-30,,114906,5,No
+1059,Sarah,Rodriguez,Male,Software Eng,2024-05-24,,50283,3,No
+1060,Amanda,Brown,Female,Dev,04-05-2021,,52610,5,No
+1061,Emily,Brown,Male,Software Eng,2020-10-02,,88326,4,No
+1062,Sarah,Miller,Male,HR,02-05-2018,2019-09-02,59924,3,Yes
+1063,Jane,Williams,Female,Human Resources,2020-01-14,,121162,4,No
+1064,Amanda,Miller,Male,Sales,10-31-2022,,45869,3,No
+1065,Jane,Davis,Female,SALES,2018-12-19,,142088,2,No
+1066,Amanda,Wilson,Female,Marketing,04-07-2023,,46014,4,No
+1067,Emily,Wilson,Male,SALES,2018-03-14,2020-02-08,55103,2,Yes
+1068,Jessica,Williams,Female,HR,2021-10-08,,127522,3,No
+1069,David,Davis,Female,SALES,2023-03-30,,141007,4,No
+1070,James,Williams,Female,HR,2020-12-29,,78458,2,No
+1071,Jessica,Johnson,Female,Marketing,2024-10-08,,135605,3,No
+1072,Michael,Wilson,Female,Software Eng,12-09-2019,,127409,5,No
+1073,Jane,Brown,Female,Sales,12-10-2022,,68248,3,No
+1074,Michael,Garcia,Male,Dev,2020-08-13,,134160,3,No
+1075,Jessica,Rodriguez,Male,Human Resources,10-11-2024,,88516,3,No
+1076,Amanda,Davis,Male,Dev,2018-06-09,,74061,3,No
+1077,James,Smith,Female,Software Eng,2024-01-06,,69170,3,No
+1078,James,Williams,Male,Human Resources,10-02-2022,,53024,5,No
+1079,John,Rodriguez,Female,SALES,2022-05-05,,127214,3,No
+1080,James,Smith,Female,Marketing,03-08-2018,23/09/2018,130947,3,Yes
+1081,David,Rodriguez,Female,Marketing,2024-08-25,2026-07-29,88803,4,Yes
+1082,James,Garcia,Non-Binary,Engineering,02-27-2018,,64296,4,No
+1083,Jessica,Smith,Female,Software Eng,12-08-2018,,136829,2,No
+1084,John,Miller,Female,Software Eng,2021-02-27,,137708,3,No
+1085,Jessica,Jones,Male,Sales,2021-04-10,,131664,3,No
+1086,Jessica,Miller,Female,Dev,2021-05-17,,63257,3,No
+1087,Alex,Wilson,Male,Software Eng,2024-07-29,26/06/2027,57855,3,Yes
+1088,John,Jones,Male,Software Eng,02-03-2022,,130178,3,No
+1089,Jessica,Miller,Female,SALES,2022-12-27,,65025,5,No
+1090,Alex,Jones,Female,SALES,04-26-2018,22/08/2019,49458,4,Yes
+1091,Alex,Jones,Male,Human Resources,2019-10-24,,108610,2,No
+1092,John,Brown,Female,HR,2022-01-05,,115843,3,No
+1093,Michael,Williams,Female,HR,2023-02-12,2025-11-07,128961,3,Yes
+1094,Amanda,Williams,Female,Engineering,2024-05-23,,94831,3,No
+1095,David,Brown,Female,HR,10-13-2020,,88427,3,No
+1096,Amanda,Rodriguez,Female,Sales,2018-11-07,,138809,4,No
+1097,James,Johnson,Non-Binary,Engineering,07-27-2018,,83506,3,No
+1098,David,Rodriguez,Female,Human Resources,2024-10-29,,50668,3,No
+1099,James,Smith,Female,SALES,09-25-2019,,136470,4,No
+1100,Jessica,Smith,Non-Binary,HR,2023-10-04,,92195,3,No
+1101,Jane,Jones,Female,Dev,2019-10-19,,118233,2,No
+1102,John,Miller,Male,SALES,11-24-2021,,69417,3,No
+1103,David,Miller,Male,Marketing,04-16-2023,,126982,2,No
+1104,David,Williams,Male,Sales,2022-08-07,28/12/2024,55751,5,Yes
+1105,Jessica,Davis,Male,SALES,08-25-2018,,91218,2,No
+1106,Michael,Rodriguez,Female,Sales,12-14-2018,,52352,3,No
+1107,Alex,Wilson,Female,Sales,09-22-2019,,124052,3,No
+1108,Jessica,Garcia,Female,Sales,03-21-2022,2022-12-27,133835,5,Yes
+1109,Sarah,Miller,Male,Human Resources,2023-06-27,,142493,2,No
+1110,Alex,Garcia,Female,Sales,2021-06-25,,73927,2,No
+1111,John,Jones,Female,Sales,12-30-2018,,86094,1,No
+1112,Alex,Garcia,Female,Marketing,06-26-2024,,99122,2,No
+1113,Michael,Wilson,Female,Dev,10-13-2018,,74493,3,No
+1114,Alex,Brown,Female,Engineering,05-29-2018,,137247,3,No
+1115,John,Wilson,Male,Software Eng,01-12-2021,,118539,3,No
+1116,Michael,Garcia,Female,Marketing,09-19-2024,,76707,1,No
+1117,Amanda,Wilson,Male,Engineering,04-01-2019,,113814,4,No
+1118,David,Johnson,Male,Sales,2022-11-02,,52296,3,No
+1119,David,Jones,Female,Dev,03-10-2020,,70398,3,No
+1120,James,Rodriguez,Male,SALES,2021-03-30,,80842,3,No
+1121,Amanda,Brown,Female,Dev,2020-10-09,,58261,5,No
+1122,Amanda,Miller,Male,Marketing,2022-03-04,,121709,2,No
+1123,Alex,Smith,Female,Sales,2019-04-26,,140985,4,No
+1124,David,Rodriguez,Male,Dev,2022-08-14,13/09/2023,101704,4,Yes
+1125,John,Smith,Non-Binary,HR,2023-12-02,2026-05-14,112173,2,Yes
+1126,Emily,Jones,Female,Dev,2022-05-21,,76781,5,No
+1127,Emily,Brown,Male,Sales,2024-08-05,,58652,3,No
+1128,Michael,Williams,Female,Human Resources,2018-12-07,,50103,2,No
+1129,David,Miller,Non-Binary,HR,2023-07-04,,70500,4,No
+1130,David,Johnson,Male,Dev,11-01-2024,2026-09-10,80529,4,Yes
+1131,Emily,Williams,Male,Software Eng,02-10-2023,,63452,3,No
+1132,David,Jones,Female,Software Eng,04-14-2020,,94393,2,No
+1133,Alex,Rodriguez,Female,Dev,2021-04-18,,76174,3,No
+1134,Sarah,Johnson,Female,Human Resources,2022-09-22,,109450,4,No
+1135,Jane,Wilson,Female,SALES,2022-08-17,,80436,3,No
+1136,Amanda,Garcia,Male,Sales,2018-11-07,,92406,3,No
+1137,James,Johnson,Male,Software Eng,09-19-2018,,108059,1,No
+1138,Michael,Jones,Female,SALES,12-13-2021,,60954,2,No
+1139,Sarah,Davis,Male,Dev,2019-02-10,,127722,4,No
+1140,Emily,Garcia,Male,Marketing,2023-12-31,,57356,3,No
+1141,Amanda,Smith,Female,SALES,2018-12-08,,143499,5,No
+1142,David,Miller,Female,HR,09-01-2021,,47187,3,No
+1143,James,Smith,Female,Engineering,2018-09-01,,122243,4,No
+1144,David,Johnson,Female,Software Eng,2019-05-05,,80098,3,No
+1145,John,Smith,Female,Dev,2018-01-12,,137471,3,No
+1146,John,Jones,Female,Marketing,2019-07-15,2021-12-01,66225,2,Yes
+1147,James,Wilson,Female,Sales,2018-02-11,,48606,3,No
+1148,James,Rodriguez,Male,Marketing,08-17-2019,,102620,3,No
+1149,Emily,Miller,Male,Human Resources,2021-12-23,,77828,5,No
+1150,James,Smith,Female,HR,2023-01-01,,71489,3,No
+1151,Alex,Smith,Female,Dev,2022-08-21,,59387,2,No
+1152,David,Johnson,Male,Sales,2018-05-14,,114463,1,No
+1153,Sarah,Rodriguez,Male,Human Resources,08-05-2020,,116832,2,No
+1154,Jessica,Williams,Male,Human Resources,03-14-2018,09/09/2020,140980,3,Yes
+1155,James,Smith,Male,Dev,2019-02-03,,47591,4,No
+1156,Michael,Jones,Female,HR,2021-11-29,,93516,5,No
+1157,John,Davis,Male,SALES,2018-05-10,,136683,1,No
+1158,Alex,Miller,Female,SALES,12-17-2022,,107061,3,No
+1159,Amanda,Smith,Female,Human Resources,2023-06-25,2025-11-07,111736,3,Yes
+1160,Jessica,Jones,Female,SALES,2018-09-23,,126257,3,No
+1161,Sarah,Jones,Female,Engineering,2022-04-10,,106753,3,No
+1162,Jessica,Miller,Male,Human Resources,06-09-2023,2026-01-15,129774,3,Yes
+1163,James,Williams,Female,Human Resources,2020-03-03,,56087,3,No
+1164,Emily,Jones,Male,Sales,2024-04-19,,75816,2,No
+1165,John,Davis,Male,SALES,08-05-2021,,68408,4,No
+1166,John,Jones,Female,HR,2018-06-13,,45136,2,No
+1167,Amanda,Jones,Male,Human Resources,2018-04-05,,62413,3,No
+1168,Emily,Jones,Male,Marketing,2022-12-11,,104500,3,No
+1169,David,Wilson,Female,HR,02-07-2021,,129514,3,No
+1170,Jane,Wilson,Male,Engineering,07-11-2024,,101358,5,No
+1171,Alex,Williams,Female,Sales,04-01-2020,,111197,4,No
+1172,John,Smith,Male,Dev,08-26-2018,,137789,4,No
+1173,Michael,Jones,Female,HR,08-25-2024,,137420,3,No
+1174,John,Rodriguez,Female,Human Resources,2023-05-15,,77854,4,No
+1175,Jessica,Smith,Female,Engineering,11-14-2020,22/10/2021,121240,3,Yes
+1176,John,Williams,Female,Software Eng,2022-08-04,,135063,4,No
+1177,John,Brown,Male,Engineering,2020-08-21,,61322,3,No
+1178,Jane,Smith,Female,Engineering,2019-06-21,,51968,5,No
+1179,Jane,Smith,Male,Sales,2022-05-23,,72518,5,No
+1180,Sarah,Garcia,Female,Dev,2023-06-03,23/10/2024,96925,4,Yes
+1181,David,Johnson,Male,Software Eng,2018-05-08,,104848,3,No
+1182,Michael,Garcia,Female,SALES,04-02-2018,,138422,2,No
+1183,John,Davis,Male,SALES,06-27-2019,,46700,4,No
+1184,John,Wilson,Female,HR,2020-04-25,,138782,2,No
+1185,Alex,Wilson,Female,Engineering,2022-08-09,,68199,4,No
+1186,Jane,Johnson,Female,Marketing,01-26-2023,,89589,3,No
+1187,Michael,Miller,Male,Sales,2024-10-30,,77115,3,No
+1188,Amanda,Miller,Female,Marketing,2019-01-25,,106934,5,No
+1189,Sarah,Williams,Male,Sales,02-28-2023,,99316,3,No
+1190,David,Johnson,Male,SALES,2018-02-12,,50520,3,No
+1191,Emily,Smith,Male,HR,2018-09-11,,81455,3,No
+1192,David,Miller,Male,HR,12-19-2020,,131465,3,No
+1193,Jessica,Jones,Female,HR,2024-05-23,,86605,4,No
+1194,John,Rodriguez,Female,Software Eng,03-21-2022,,59955,3,No
+1195,Sarah,Smith,Male,Dev,2023-05-08,,89049,5,No
+1196,Jessica,Davis,Male,Software Eng,07-20-2024,,58917,4,No
+1197,Michael,Jones,Male,Human Resources,10-04-2019,,115293,3,No
+1198,Emily,Jones,Male,Human Resources,2024-08-26,2027-06-20,123581,4,Yes
+1199,Jane,Johnson,Non-Binary,Marketing,2019-11-21,,109925,3,No
+1200,Sarah,Williams,Male,Dev,06-30-2021,2024-01-02,115269,3,Yes
+1201,Sarah,Davis,Male,SALES,05-05-2023,,75954,5,No
+1202,John,Miller,Male,Dev,2020-12-15,,141671,1,No
+1203,James,Johnson,Female,Sales,01-26-2022,,117617,3,No
+1204,Sarah,Miller,Non-Binary,Human Resources,04-02-2019,,86458,3,No
+1205,Alex,Johnson,Female,Engineering,09-09-2020,,134037,3,No
+1206,Emily,Johnson,Female,Engineering,11-01-2023,,66113,3,No
+1207,Emily,Johnson,Female,SALES,2021-01-27,,144977,4,No
+1208,Alex,Williams,Male,Sales,2018-05-29,,135226,3,No
+1209,Amanda,Johnson,Female,Marketing,09-14-2021,,88939,3,No
+1210,Alex,Brown,Female,Software Eng,2021-03-25,,74345,2,No
+1211,Alex,Rodriguez,Female,Sales,07-09-2018,31/05/2019,91313,3,Yes
+1212,Emily,Miller,Female,Engineering,2020-06-01,,137365,3,No
+1213,David,Smith,Female,Engineering,2024-04-29,,114166,3,No
+1214,Emily,Garcia,Female,Marketing,02-04-2019,,92861,3,No
+1215,James,Davis,Non-Binary,Human Resources,2019-09-01,15/01/2021,142406,2,Yes
+1216,John,Wilson,Female,Sales,2022-12-01,,94298,3,No
+1217,Jessica,Williams,Female,Sales,06-27-2022,,92221,3,No
+1218,David,Smith,Female,Engineering,04-25-2022,,89942,5,No
+1219,Jane,Jones,Male,Software Eng,11-19-2023,,48453,5,No
+1220,Jessica,Brown,Female,SALES,2021-10-14,,99935,3,No
+1221,John,Wilson,Male,HR,2021-11-04,,88370,5,No
+1222,James,Garcia,Female,SALES,2020-03-30,,53328,4,No
+1223,James,Smith,Non-Binary,Sales,2020-03-30,,60534,3,No
+1224,Jane,Wilson,Female,SALES,2019-02-24,,130280,1,No
+1225,David,Smith,Male,Engineering,2018-05-04,,129925,4,No
+1226,Amanda,Brown,Male,Engineering,2019-02-26,2019-09-06,81320,4,Yes
+1227,Alex,Garcia,Male,Marketing,02-17-2022,,94170,3,No
+1228,David,Jones,Female,Sales,2022-05-17,,125201,4,No
+1229,Amanda,Johnson,Male,Marketing,2020-02-07,,53640,3,No
+1230,James,Miller,Male,Sales,08-07-2023,,136057,4,No
+1231,Emily,Jones,Male,HR,2024-01-12,,75049,5,No
+1232,John,Johnson,Female,HR,11-10-2023,,50618,3,No
+1233,Jane,Williams,Female,Human Resources,2022-03-30,,101053,4,No
+1234,John,Rodriguez,Male,Sales,2022-10-31,,46920,3,No
+1235,Michael,Davis,Male,Software Eng,08-07-2023,,88937,3,No
+1236,Michael,Davis,Female,SALES,05-25-2019,,114724,4,No
+1237,David,Miller,Female,Sales,04-21-2021,,57207,1,No
+1238,James,Garcia,Female,Dev,2019-01-21,2021-06-19,110774,3,Yes
+1239,James,Brown,Male,Human Resources,05-17-2022,,77972,3,No
+1240,Alex,Garcia,Female,Dev,2024-09-18,,55799,3,No
+1241,Alex,Brown,Female,Engineering,04-12-2024,,116088,3,No
+1242,Alex,Garcia,Female,HR,2020-01-12,,73916,4,No
+1243,Emily,Rodriguez,Female,SALES,2023-03-27,,115463,2,No
+1244,Jessica,Williams,Male,Sales,12-17-2021,,138500,3,No
+1245,Sarah,Williams,Male,Dev,2020-06-19,2022-12-05,121700,3,Yes
+1246,Jessica,Johnson,Female,SALES,10-14-2023,,82158,4,No
+1247,John,Wilson,Female,Engineering,2024-03-10,2024-09-27,129607,5,Yes
+1248,Jessica,Williams,Female,HR,07-03-2023,,116696,5,No
+1249,Emily,Williams,Female,Software Eng,08-30-2018,,106510,4,No
+1250,John,Jones,Female,Human Resources,07-13-2024,,103692,4,No
+1251,Jessica,Jones,Female,SALES,07-14-2023,,106744,3,No
+1252,Emily,Johnson,Male,SALES,06-22-2018,,60810,3,No
+1253,Sarah,Wilson,Female,Software Eng,2019-11-03,,50126,3,No
+1254,Jessica,Miller,Male,SALES,2018-06-13,,75009,4,No
+1255,Emily,Jones,Male,Engineering,04-10-2019,,144120,5,No
+1256,Alex,Miller,Non-Binary,Engineering,2019-05-12,2021-09-20,135932,2,Yes
+1257,James,Smith,Male,Software Eng,12-01-2019,,45192,5,No
+1258,Alex,Jones,Male,Human Resources,2024-09-08,,81413,3,No
+1259,James,Rodriguez,Male,Sales,2019-12-04,,57816,3,No
+1260,Jane,Wilson,Female,Dev,2023-04-25,,84082,2,No
+1261,Jane,Johnson,Male,Sales,2024-06-13,,110048,2,No
+1262,Jane,Smith,Male,SALES,11-27-2022,,95940,3,No
+1263,Sarah,Wilson,Male,Dev,2018-07-02,21/06/2021,77130,3,Yes
+1264,Alex,Rodriguez,Male,Marketing,2019-09-21,,85142,3,No
+1265,James,Wilson,Male,Software Eng,09-28-2022,,81468,3,No
+1266,Emily,Rodriguez,Male,Software Eng,2019-06-30,2020-04-30,75698,4,Yes
+1267,John,Rodriguez,Female,Human Resources,05-07-2022,,55655,4,No
+1268,Emily,Miller,Male,Dev,2019-09-16,2020-10-03,92897,5,Yes
+1269,John,Garcia,Male,Engineering,08-17-2019,,75075,3,No
+1270,Michael,Smith,Male,Dev,01-14-2020,,54359,3,No
+1271,Emily,Wilson,Male,SALES,2022-11-04,,87056,4,No
+1272,Jessica,Brown,Female,Engineering,2021-12-30,,96831,3,No
+1273,Jessica,Smith,Female,HR,05-03-2023,,104191,2,No
+1274,David,Garcia,Male,HR,08-31-2023,,78272,3,No
+1275,Alex,Smith,Male,Marketing,2024-09-10,2027-01-01,59671,3,Yes
+1276,John,Williams,Male,HR,04-15-2018,,72048,3,No
+1277,John,Brown,Female,Software Eng,02-18-2024,,121274,3,No
+1278,Alex,Garcia,Female,Dev,2018-01-17,,70963,3,No
+1279,Sarah,Miller,Female,HR,2019-01-28,,88954,1,No
+1280,David,Wilson,Male,Sales,03-01-2019,,117309,3,No
+1281,Sarah,Davis,Female,Human Resources,2023-12-17,,140430,3,No
+1282,Sarah,Garcia,Male,Sales,2019-07-26,2020-11-02,45717,3,Yes
+1283,Sarah,Johnson,Male,HR,2023-09-08,,56676,2,No
+1284,Alex,Wilson,Male,Marketing,2021-01-25,,49434,3,No
+1285,Sarah,Garcia,Male,Human Resources,08-30-2018,2019-12-25,94810,3,Yes
+1286,Jessica,Williams,Female,SALES,03-29-2024,,139636,3,No
+1287,Jane,Davis,Female,Sales,02-28-2020,,49994,3,No
+1288,Michael,Williams,Male,Marketing,2019-12-16,,49234,3,No
+1289,John,Davis,Female,Dev,01-29-2020,,114300,5,No
+1290,John,Johnson,Non-Binary,Dev,2020-02-15,2021-08-17,88949,3,Yes
+1291,Michael,Wilson,Female,Sales,02-26-2024,,82405,3,No
+1292,Alex,Miller,Female,HR,03-20-2018,,79872,3,No
+1293,Emily,Williams,Female,Marketing,2020-05-05,21/02/2021,87215,3,Yes
+1294,Alex,Williams,Non-Binary,Dev,12-10-2021,01/12/2023,68185,3,Yes
+1295,John,Rodriguez,Female,SALES,11-01-2024,,88442,3,No
+1296,John,Davis,Male,Engineering,2023-11-05,,96759,4,No
+1297,Michael,Jones,Male,HR,11-19-2023,,86153,3,No
+1298,Sarah,Wilson,Female,Marketing,2020-10-28,,122535,2,No
+1299,Alex,Davis,Male,SALES,2020-04-24,,47581,3,No
+1300,James,Rodriguez,Female,Marketing,03-28-2018,,96717,4,No
+1301,Michael,Smith,Male,Human Resources,2023-09-22,,47763,2,No
+1302,Jessica,Davis,Male,SALES,2019-02-12,,137910,5,No
+1303,John,Miller,Male,HR,07-27-2022,,100480,3,No
+1304,Michael,Wilson,Male,Human Resources,05-28-2018,,83759,5,No
+1305,Alex,Rodriguez,Female,HR,05-13-2024,,121067,5,No
+1306,John,Smith,Female,Dev,2018-08-20,,70307,3,No
+1307,Emily,Brown,Female,Engineering,05-05-2023,,141371,2,No
+1308,Michael,Rodriguez,Female,HR,2019-01-01,,56064,2,No
+1309,David,Brown,Male,HR,2022-08-02,,121848,3,No
+1310,John,Wilson,Female,Dev,2019-03-12,,82548,4,No
+1311,Alex,Williams,Female,Software Eng,02-03-2019,,81945,3,No
+1312,Jane,Rodriguez,Female,Dev,05-19-2021,,92937,3,No
+1313,James,Johnson,Male,Human Resources,2021-11-15,,51476,3,No
+1314,Amanda,Brown,Female,Dev,07-17-2019,17/03/2020,96756,5,Yes
+1315,Sarah,Miller,Female,Dev,10-25-2024,,135101,2,No
+1316,Amanda,Johnson,Non-Binary,Engineering,07-08-2021,,47382,1,No
+1317,Alex,Garcia,Female,Dev,02-12-2020,,94683,2,No
+1318,Jessica,Garcia,Male,Marketing,2024-07-25,,132999,5,No
+1319,Jessica,Smith,Female,HR,07-31-2023,,90276,3,No
+1320,Jane,Williams,Female,Marketing,09-05-2021,,78402,3,No
+1321,Sarah,Wilson,Male,Engineering,12-26-2023,,136881,2,No
+1322,David,Rodriguez,Female,Sales,2022-04-23,,71946,3,No
+1323,Jane,Jones,Female,Software Eng,2020-09-18,2022-09-16,124698,2,Yes
+1324,Amanda,Miller,Male,Marketing,08-12-2024,,118933,5,No
+1325,Jane,Brown,Male,Engineering,2021-05-31,,67335,4,No
+1326,Amanda,Wilson,Male,Human Resources,2018-12-26,,90095,3,No
+1327,John,Johnson,Male,Sales,2020-07-09,07/07/2022,124930,4,Yes
+1328,Jessica,Garcia,Male,Engineering,2024-07-04,2026-10-09,72197,3,Yes
+1329,John,Miller,Female,Engineering,08-20-2020,,67010,4,No
+1330,James,Jones,Male,Software Eng,01-02-2023,,69123,4,No
+1331,Sarah,Rodriguez,Male,HR,06-02-2022,,132923,3,No
+1332,David,Smith,Female,Marketing,06-29-2022,,47890,4,No
+1333,Amanda,Jones,Female,Human Resources,2024-01-26,,138305,3,No
+1334,David,Miller,Male,SALES,08-05-2018,,53026,3,No
+1335,Amanda,Jones,Male,Marketing,01-13-2019,,109925,2,No
+1336,Alex,Miller,Male,SALES,2018-04-29,,113842,3,No
+1337,Jane,Miller,Female,Engineering,2018-07-09,,78665,4,No
+1338,James,Davis,Male,Dev,01-05-2019,2019-11-08,54277,5,Yes
+1339,Jessica,Brown,Female,Human Resources,12-07-2022,2024-02-16,87239,3,Yes
+1340,Amanda,Garcia,Non-Binary,Sales,01-06-2024,,92664,4,No
+1341,David,Davis,Male,Dev,2019-10-14,21/10/2020,93008,4,Yes
+1342,James,Rodriguez,Female,Dev,02-26-2023,09/02/2025,59683,2,Yes
+1343,Emily,Davis,Non-Binary,Marketing,02-20-2022,,45670,3,No
+1344,Emily,Williams,Male,Human Resources,2020-02-09,,134211,2,No
+1345,John,Williams,Female,HR,08-18-2024,,62889,3,No
+1346,Jessica,Garcia,Female,Engineering,2020-02-20,,100612,5,No
+1347,Alex,Jones,Female,Engineering,09-13-2022,,89535,2,No
+1348,David,Brown,Female,Engineering,01-17-2024,,123542,4,No
+1349,Jane,Garcia,Female,Engineering,2024-07-26,,99319,3,No
+1350,Jane,Miller,Female,Marketing,2021-08-04,2023-02-18,137067,3,Yes
+1351,David,Johnson,Female,SALES,06-03-2021,,66639,3,No
+1352,Sarah,Brown,Female,Engineering,2019-06-07,25/11/2020,109712,3,Yes
+1353,Alex,Brown,Female,SALES,2019-06-06,,61633,1,No
+1354,James,Miller,Female,SALES,2020-02-22,,79660,3,No
+1355,Amanda,Miller,Male,HR,05-09-2024,,113975,1,No
+1356,Sarah,Smith,Male,Engineering,2020-07-24,,77172,3,No
+1357,Amanda,Garcia,Male,Software Eng,02-09-2024,,104197,2,No
+1358,Amanda,Miller,Male,Sales,08-16-2022,,103847,4,No
+1359,Sarah,Williams,Male,Dev,05-03-2019,04/06/2021,56577,3,Yes
+1360,John,Rodriguez,Female,SALES,01-25-2023,,122299,3,No
+1361,Emily,Johnson,Male,Human Resources,2020-04-25,,65176,3,No
+1362,Amanda,Garcia,Female,Human Resources,12-12-2023,,89386,3,No
+1363,Sarah,Wilson,Male,Sales,09-27-2024,,108972,5,No
+1364,Sarah,Williams,Female,Human Resources,2023-06-27,,134791,2,No
+1365,Michael,Jones,Non-Binary,Software Eng,10-15-2022,,86003,3,No
+1366,John,Miller,Male,Human Resources,11-17-2019,,64996,4,No
+1367,Jessica,Wilson,Female,Dev,12-01-2023,,131598,2,No
+1368,Michael,Miller,Male,Dev,12-10-2023,,80931,2,No
+1369,Michael,Brown,Female,SALES,04-17-2022,,80710,3,No
+1370,David,Williams,Male,Engineering,2021-05-30,,79693,2,No
+1371,Emily,Brown,Female,HR,02-08-2018,2019-02-10,80740,3,Yes
+1372,Sarah,Smith,Male,Software Eng,02-19-2020,,122241,3,No
+1373,Emily,Brown,Female,SALES,2021-06-10,22/09/2022,138583,4,Yes
+1374,Alex,Smith,Female,Software Eng,2024-01-06,,121502,4,No
+1375,David,Smith,Male,Engineering,04-12-2023,2023-12-30,62374,3,Yes
+1376,Jessica,Wilson,Male,Marketing,2018-10-29,,121674,3,No
+1377,Emily,Miller,Male,Human Resources,04-04-2024,,126471,4,No
+1378,Jane,Jones,Male,Human Resources,10-09-2019,2021-09-15,90913,3,Yes
+1379,Amanda,Brown,Female,HR,2019-10-25,,111025,4,No
+1380,Alex,Williams,Male,Engineering,04-02-2024,,89516,4,No
+1381,John,Smith,Male,SALES,2022-10-26,,132796,4,No
+1382,Jessica,Miller,Male,HR,02-29-2024,2026-06-14,71069,3,Yes
+1383,Alex,Johnson,Female,Engineering,2018-09-13,,101233,3,No
+1384,Amanda,Garcia,Male,Sales,08-21-2019,,129811,3,No
+1385,David,Wilson,Male,Dev,2019-10-24,06/05/2022,104049,4,Yes
+1386,Amanda,Jones,Male,HR,2018-08-23,11/02/2020,84178,1,Yes
+1387,Michael,Davis,Male,HR,2021-09-30,,77821,4,No
+1388,Amanda,Wilson,Female,SALES,02-09-2020,,96727,3,No
+1389,Michael,Johnson,Male,Software Eng,2018-08-01,,105935,2,No
+1390,David,Garcia,Male,Sales,2019-04-08,,61999,2,No
+1391,James,Johnson,Female,SALES,2024-10-19,,107522,1,No
+1392,Michael,Brown,Female,Engineering,2018-10-10,,83712,3,No
+1393,John,Smith,Male,Engineering,2022-01-26,2023-10-17,109551,3,Yes
+1394,Amanda,Jones,Female,Engineering,12-01-2021,,85172,5,No
+1395,Amanda,Rodriguez,Female,Marketing,03-29-2018,,78722,3,No
+1396,John,Smith,Male,Engineering,12-03-2020,,55625,2,No
+1397,Jane,Rodriguez,Female,Software Eng,04-06-2019,,112165,3,No
+1398,Sarah,Garcia,Female,Sales,2024-05-14,,121509,4,No
+1399,James,Miller,Male,Human Resources,2024-10-04,02/10/2025,51859,4,Yes
+1400,Jessica,Davis,Male,Dev,2022-09-21,,86609,2,No
+1401,Michael,Williams,Male,Software Eng,10-08-2021,2023-08-26,88307,4,Yes
+1402,John,Smith,Female,Software Eng,2019-05-30,,66839,4,No
+1403,David,Jones,Non-Binary,Marketing,2019-12-04,2021-08-25,72216,2,Yes
+1404,Michael,Johnson,Female,Human Resources,2022-07-12,30/09/2024,97953,2,Yes
+1405,Sarah,Jones,Male,Human Resources,2023-08-29,,129481,3,No
+1406,David,Garcia,Female,Dev,01-23-2018,,105593,2,No
+1407,Alex,Rodriguez,Female,Dev,2024-09-26,,117075,4,No
+1408,Amanda,Johnson,Male,Human Resources,2020-11-19,,94522,3,No
+1409,Alex,Williams,Male,Engineering,01-05-2023,30/07/2023,144161,5,Yes
+1410,Michael,Williams,Female,Software Eng,11-26-2023,09/01/2025,49886,3,Yes
+1411,Sarah,Smith,Male,SALES,2021-07-28,,52485,2,No
+1412,James,Garcia,Female,Dev,2021-02-08,,76455,2,No
+1413,Michael,Miller,Male,Marketing,2023-12-24,,61767,3,No
+1414,John,Garcia,Male,Marketing,2018-12-28,,73453,4,No
+1415,Emily,Rodriguez,Male,Dev,12-17-2023,,121280,4,No
+1416,Michael,Jones,Male,Human Resources,03-15-2023,,98442,3,No
+1417,Amanda,Williams,Female,Sales,07-08-2021,,96877,3,No
+1418,Amanda,Jones,Male,SALES,05-30-2019,,57226,1,No
+1419,Michael,Jones,Female,SALES,03-25-2019,,138405,3,No
+1420,David,Jones,Female,Dev,04-08-2023,,67588,2,No
+1421,Emily,Williams,Female,Engineering,02-15-2022,,123976,3,No
+1422,John,Wilson,Male,Sales,2021-06-01,,76709,3,No
+1423,Michael,Brown,Female,SALES,01-30-2023,,92788,5,No
+1424,David,Rodriguez,Female,Dev,2020-05-23,,133031,3,No
+1425,Amanda,Wilson,Male,Marketing,2021-11-29,,82019,3,No
+1426,Amanda,Rodriguez,Male,SALES,06-07-2024,,89948,3,No
+1427,Sarah,Johnson,Female,HR,03-28-2024,,110133,3,No
+1428,Michael,Garcia,Non-Binary,Sales,10-21-2022,,111458,3,No
+1429,Emily,Garcia,Male,Sales,07-11-2020,,72526,5,No
+1430,Jane,Davis,Female,HR,2023-11-30,,118493,4,No
+1431,Emily,Garcia,Female,Software Eng,11-02-2020,,97198,3,No
+1432,Amanda,Williams,Female,Marketing,11-17-2021,,144534,3,No
+1433,Amanda,Miller,Non-Binary,HR,03-31-2024,,88395,3,No
+1434,Alex,Smith,Female,Human Resources,2018-11-10,,69031,4,No
+1435,Amanda,Davis,Male,Human Resources,2024-03-06,,120542,1,No
+1436,John,Smith,Male,Dev,2023-06-21,,82701,3,No
+1437,Jessica,Rodriguez,Male,Sales,11-03-2020,2022-03-18,70939,3,Yes
+1438,Michael,Smith,Female,Software Eng,2022-07-15,,94145,3,No
+1439,Emily,Smith,Female,Software Eng,2022-11-14,,65324,3,No
+1440,Jessica,Davis,Male,SALES,2020-10-11,2023-02-07,67867,5,Yes
+1441,David,Johnson,Female,SALES,2020-12-29,11/12/2022,45203,1,Yes
+1442,Jane,Jones,Female,HR,01-29-2021,,61544,3,No
+1443,John,Garcia,Female,Software Eng,2019-11-29,,60899,3,No
+1444,Emily,Garcia,Male,HR,2023-12-20,,74063,4,No
+1445,Jessica,Williams,Female,Marketing,11-05-2021,2024-06-28,135880,5,Yes
+1446,Jane,Davis,Male,HR,03-01-2021,,48748,3,No
+1447,Alex,Williams,Male,SALES,2020-11-09,,111629,4,No
+1448,John,Miller,Male,Sales,04-14-2023,,125764,3,No
+1449,John,Miller,Male,HR,2020-10-10,,65884,3,No
+1450,Alex,Williams,Male,Engineering,2018-08-15,,70183,3,No
+1451,Michael,Davis,Female,Sales,2023-01-03,,126570,3,No
+1452,Alex,Williams,Male,Software Eng,02-01-2022,,116246,3,No
+1453,John,Garcia,Female,Software Eng,2020-04-01,,64259,3,No
+1454,John,Wilson,Male,HR,07-17-2023,,80959,1,No
+1455,Jessica,Brown,Female,Sales,2020-05-20,11/11/2022,78457,5,Yes
+1456,Amanda,Smith,Non-Binary,SALES,09-18-2024,,130679,2,No
+1457,Jane,Brown,Male,SALES,2024-02-28,2025-02-24,47103,3,Yes
+1458,Alex,Davis,Male,Human Resources,2023-09-17,,110901,3,No
+1459,Jane,Brown,Male,Software Eng,2022-12-01,,89535,4,No
+1460,Alex,Miller,Female,Dev,2018-07-07,,61103,2,No
+1461,David,Rodriguez,Female,Human Resources,2020-12-16,02/09/2022,143046,3,Yes
+1462,John,Smith,Male,SALES,2020-07-29,2022-05-23,135012,5,Yes
+1463,Amanda,Jones,Female,Sales,05-09-2024,,123278,3,No
+1464,Jessica,Davis,Male,Marketing,2019-06-10,,57391,3,No
+1465,Amanda,Smith,Male,SALES,12-02-2018,2020-12-14,73901,4,Yes
+1466,Amanda,Brown,Female,Sales,2020-12-14,,142537,2,No
+1467,Amanda,Miller,Male,Human Resources,06-11-2018,,126159,3,No
+1468,Jane,Johnson,Female,Software Eng,08-17-2019,,112914,3,No
+1469,Alex,Wilson,Male,SALES,2023-04-23,,95357,3,No
+1470,James,Jones,Non-Binary,HR,01-16-2024,12/12/2026,131908,3,Yes
+1471,David,Wilson,Male,Sales,03-01-2018,,83437,2,No
+1472,Emily,Smith,Male,Software Eng,2023-03-17,,80503,3,No
+1473,Amanda,Miller,Female,Marketing,2024-03-08,,141282,1,No
+1474,Michael,Miller,Male,Marketing,2019-02-10,,138459,4,No
+1475,Jane,Brown,Non-Binary,Dev,10-26-2019,,120403,3,No
+1476,Jessica,Garcia,Female,Sales,2021-02-06,,86258,3,No
+1477,Emily,Brown,Female,Human Resources,01-04-2021,,78724,4,No
+1478,James,Garcia,Female,Dev,2019-06-26,,109286,3,No
+1479,Michael,Garcia,Female,Dev,2021-08-30,,119842,1,No
+1480,James,Jones,Female,Engineering,2020-09-24,,59908,5,No
+1481,Emily,Brown,Female,SALES,02-14-2021,,137617,3,No
+1482,Amanda,Johnson,Female,Sales,05-17-2020,,95626,2,No
+1483,Michael,Williams,Male,Dev,08-29-2023,11/04/2025,82228,4,Yes
+1484,James,Williams,Male,Engineering,03-08-2019,,68386,3,No
+1485,Jessica,Brown,Female,Human Resources,01-10-2020,,91754,3,No
+1486,Alex,Brown,Male,Software Eng,2021-10-05,,73302,3,No
+1487,John,Wilson,Female,HR,07-02-2018,,105815,3,No
+1488,Alex,Jones,Male,HR,2023-12-01,,129748,3,No
+1489,Emily,Brown,Male,Sales,04-21-2021,,108344,5,No
+1490,Jane,Wilson,Female,Dev,2021-03-15,,80618,3,No
+1491,John,Garcia,Female,HR,2020-04-10,,121234,4,No
+1492,David,Miller,Male,SALES,07-10-2022,2023-02-27,106114,3,Yes
+1493,Jessica,Miller,Female,HR,02-10-2021,,115130,4,No
+1494,David,Garcia,Female,HR,2019-04-21,,70525,4,No
+1495,Michael,Davis,Male,HR,08-19-2021,,124818,3,No
+1496,John,Wilson,Female,Marketing,2020-08-28,,59334,3,No
+1497,David,Wilson,Male,Engineering,2020-10-16,,139715,3,No
+1498,David,Garcia,Male,Dev,2021-02-15,,107767,3,No
+1499,James,Johnson,Non-Binary,SALES,01-11-2023,2023-07-31,51644,4,Yes
+1500,Alex,Rodriguez,Male,Dev,2018-06-10,,77933,4,No
